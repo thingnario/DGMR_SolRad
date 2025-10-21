@@ -1,13 +1,10 @@
 ---
 license: mit
-title: DGMR Solar Radiation Nowcasting
-emoji: ☀️
 tags:
 - solar-radiation
 - deep-learning
 - nowcasting
 - dgmr
-library_name: pytorch
 ---
 
 # DGMR Solar Radiation Nowcasting ☀️
