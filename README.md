@@ -16,10 +16,13 @@ The model uses multiple input sources:
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository & install Git LFS:
 ```bash
+git lfs install
 git clone <repository-url>
 cd DGMR_SolRad
+git lfs pull
+git lfs ls-files # confirm whether models weights & sample data are downloaded
 ```
 
 2. Install dependencies:
