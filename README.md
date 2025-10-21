@@ -1,6 +1,20 @@
-# DGMR Solar Radiation Nowcasting
+---
+license: mit
+title: DGMR Solar Radiation Nowcasting
+emoji: ☀️
+tags:
+- solar-radiation
+- deep-learning
+- nowcasting
+- dgmr
+library_name: pytorch
+---
+
+# DGMR Solar Radiation Nowcasting ☀️
 
 A deep learning model for solar radiation nowcasting using modified [Deep Generative Model of Rainfall (DGMR)](https://www.nature.com/articles/s41586-021-03854-z) architecture with Solar radiation Output (DGMR-SO). The model predicts clearsky index and converts it to solar radiation for up to 36 time steps ahead.
+
+![Solar Prediction Example](docs/srad_example.gif)
 
 ## Overview
 
@@ -74,3 +88,7 @@ The repository includes sample data files:
 Pre-trained weights are available for both models:
 - `model_weights/DGMR_SO/ft36/weights.ckpt`
 - `model_weights/Generator_only/ft36/weights.ckpt`
+
+## License
+
+This project is released under the MIT License.
